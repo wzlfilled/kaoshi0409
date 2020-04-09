@@ -26,7 +26,7 @@ public class DateTest {
 		Date init = DateUtil.getMonthEnd(c.getTime());
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		System.out.println(sdf.format(init));
-	} 
+	}  
 	
 	public void testGetMonthlnit() {
 		Calendar c = Calendar.getInstance();
